@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(234, 222, 232);
+    color: black;
+    /* this is the font color*/
+}
+
+/* create styles for the h1 tag */
+
+/* Sample - pick your own colors and settings. Make sure to include the ; at the end of the line*/
+
+h1 {
+    color: rgb(23, 0, 23);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(50, 19, 55);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+li a {
+    color: rgb(18, 30, 71);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: start;
+}
+
+nav a {
+color: rgb(102, 17, 98);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+nav  {
+    text-align: center;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="container">
+      <h1>JavaScript Image Control</h1>
+    </header>
+    <main class="container">
+      <div class="grid-container">
+        <div>
+          <img
+            src="images/calabaza 1.jpg"
+            alt="Calabaza"
+            onclick='change("images/calabaza 1.jpg")'
+          />
+        </div>
+        <div>
+          <img
+            src="images/candles.jpg"
+            alt="Candle"
+            onclick='change("images/candles.jpg")'
+          />
+        </div>
+        <div>
+          <img
+            src="images/drink.jpg"
+            alt="Drink"
+            onclick='change("images/drink.jpg")'
+          />
+        </div>
+        <div>
+          <img
+            src="images/potion.jpg"
+            alt="Potion"
+            onclick='change("images/potion.jpg")'
+          />
+        </div>
+        <div>
+          <img
+            src="images/skull.jpg"
+            alt="Skull"
+            onclick='change("images/skull.jpg")'
+          />
+        </div>
+      </div>
+      <div id="main-image">
+        <img src="images/calabaza 1.jpg" alt="ahollama" id="large" />
+      </div>
+    </main>
+    <footer class="container">
+      <p>&copy; 2023 Maria Martinez</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
