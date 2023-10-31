@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+  </head>
+  <body>
+    <header class="container">
+      <h1>Forms</h1>
+    </header>
+    <main class="container">
+      <form>
+        <label for="fname">First name:</label><br />
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          value="Enter your first name"
+        /><br />
+        <label for="lname">Last name:</label><br />
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          value="Enter your last name"
+        /><br /><br />
+        <input type="submit" value="Click... If you dare!" />
+      </form>
+      <h2>Do you have any pet?</h2>
+      <form action="/action_page.php">
+        <input type="checkbox" id="pet1" name="pet1" value="Cat" />
+        <label for="pet1"> I have a cat</label><br />
+        <input type="checkbox" id="pet2" name="pet2" value="Bird" />
+        <label for="pet2"> I have a bird</label><br />
+        <input type="checkbox" id="pet3" name="pet3" value="Snake" />
+        <label for="pet3"> I have a snake</label><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+      <h2>When is your mom's birthday?</h2>
+      <form action="/action_page.php">
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" />
+        <input type="submit" value="Submit" />
+      </form>
+      <h2>What's your favorite breed of dog?</h2>
+      <form action="/action_page.php">
+        <label for="dog">Choose a Dog:</label>
+        <select id="dog" name="dog">
+          <option value="none">None</option>
+          <option value="husky">Husky</option>
+          <option value="beagle">Beagle</option>
+          <option value="great dane">Great Dane</option>
+          <option value="poodle">Poodle</option>
+        </select>
+        <input type="submit" value="Submit" />
+      </form>
+      <h2>Why is your favorite breed of dog?</h2>
+      <form action="/action_page.php">
+        <textarea name="message" rows="10" cols="30">Answer here!</textarea>
+        <br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+    <footer class="container">
+      <p>&copy; 2023 Maria Martinez</p>
+    </footer>
+  </body>
+</html>
