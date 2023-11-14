@@ -14,9 +14,8 @@
 body {
     font-family: var(--type);
     background-color: #e9eff6;
-    margin: 1in;
-    padding: 0;
-    line-height: 2.5;
+    margin: 0.7in;
+    line-height: 2.2;
     font-size: large;
     font-weight: bold;
 }
@@ -140,9 +139,9 @@ textarea {
 }
 
 .container {
-    padding: 15px;
-    width: 85%;
-    margin: 10px auto;
+    padding: 10px;
+    width: 100%;
+    margin: 5px auto;
     border: 3px solid var(--bright);
     border-radius: 3%;
     background-color: var(--back);
