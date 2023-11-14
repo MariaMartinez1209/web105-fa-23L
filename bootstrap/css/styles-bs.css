@@ -1,0 +1,30 @@
+.masthead {
+    background-color: #07004D;
+    color: #EB8A90;
+    padding: 2rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#dq {
+    width: 75%;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#da {
+    width: 30%;
+    height: 50px;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
+
+ul {
+    list-style-type: "\2618";
+}
+
+body{
+    background-color: #F3DFBF;
+}
